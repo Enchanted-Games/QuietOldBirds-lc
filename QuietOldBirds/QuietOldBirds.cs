@@ -1,7 +1,7 @@
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using QuietOldBirds;
+using QuietOldBirds.Config;
 
 namespace QuietOldBirds;
 
@@ -16,6 +16,8 @@ public class QuietOldBirds : BaseUnityPlugin
     {
         Logger = base.Logger;
         Instance = this;
+        
+        ConfigManager.RegisterConfig(Config);
 
         Patch();
 

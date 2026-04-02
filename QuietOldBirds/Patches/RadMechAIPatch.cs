@@ -1,4 +1,5 @@
 using HarmonyLib;
+using QuietOldBirds.Config;
 
 namespace QuietOldBirds.Patches;
 
@@ -9,11 +10,10 @@ public class RadMechAIPatch
     [HarmonyPostfix]
     static void Postfix(RadMechAI __instance)
     {
-        __instance.creatureSFX.volume = 0.1f;
-        __instance.creatureVoice.volume = 0.1f;
-        __instance.LocalLRADAudio.volume = 0.1f;
-        __instance.LocalLRADAudio2.volume = 0.1f;
-        __instance.engineSFX.volume = 0.2f;
-        __instance.explosionAudio.volume = 0.1f;
+        __instance.creatureSFX.volume = ConfigManager.CreatureSFX.Value;
+        __instance.LocalLRADAudio.volume = ConfigManager.LocalRad.Value;
+        __instance.LocalLRADAudio2.volume = ConfigManager.LocalRad.Value;
+        __instance.engineSFX.volume = ConfigManager.EngineSFX.Value;
+        __instance.explosionAudio.volume = ConfigManager.Explosion.Value;
     }
 }

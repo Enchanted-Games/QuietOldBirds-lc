@@ -1,11 +1,11 @@
 .vs/
 .idea/
 build/
-include/
 bin/
 obj/
 Releases/*
 Releases/*.*
 !Releases/build.bat
 QuietOldBirds.csproj.user
-Folder.DotSettings.user
+*.DotSettings.user
+include/*.dll
