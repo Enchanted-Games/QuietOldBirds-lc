@@ -2,6 +2,10 @@
 
 Reduces the volume of Old Birds in Lethal Company to around 10%, save your ears! Volume is configurable
 
+## Downloads
+
+Releases of this mod are made on [thunderstore](https://thunderstore.io/c/lethal-company/p/Enchanted_Games/QuietOldBirds/)
+
 ## Dev Setup
 
 - Rename `QuietOldBirds.template.csproj.user` to `QuietOldBirds.csproj.user`, then update `PluginDirectory` to your bepinex plugins folder 
