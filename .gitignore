@@ -8,3 +8,4 @@ Releases/*
 Releases/*.*
 !Releases/build.bat
 QuietOldBirds.csproj.user
+Folder.DotSettings.user
