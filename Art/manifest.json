@@ -1,0 +1,9 @@
+{
+    "name": "QuietOldBirds",
+    "version_number": "1.0.0",
+    "website_url": "https://github.com/Enchanted-Games/QuietOldBirds-lc",
+    "description": "Reduces the volume of Old Birds in Lethal Company to around 10%, save your ears! Volume is configurable",
+    "dependencies": [
+        "BepInEx-BepInExPack-5.4.2305"
+    ]
+}

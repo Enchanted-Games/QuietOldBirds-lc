@@ -1,6 +1,6 @@
 # Quiet Old Birds
 
-Reduces the volume of Old Birds in Lethal Company to save your ears. _Should_ work with sound replacement mods
+Reduces the volume of Old Birds in Lethal Company to around 10%, save your ears! Volume is configurable
 
 ## Dev Setup
 
